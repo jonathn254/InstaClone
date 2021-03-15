@@ -1,0 +1,118 @@
+/* table of content */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* registration  & login*/
+#regsection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.leftside{
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/unsplady.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.leftside-login{
+    width: 50%;
+    height: 100%;
+    background-image: url("../images/login.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+#rightside{
+    background-color: #f7f7f7;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#buttonsgnup{
+    background-color: red;
+    color: white;
+    padding: 15px 80px 15px 80px;
+    border-radius: 8px;
+    width: 450px;
+    border: none;
+    cursor: pointer;
+
+}
+#buttonsgnup:hover{
+    border: 1px tomato solid;
+    color: tomato;
+    background-color: transparent;
+}
+#rightside input{
+    padding: 10px 20px 10px 15px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: gray 1px solid;
+}
+#rightside a{
+    margin-top: 50px;
+    color: royalblue;
+}
+/* login */
+
+/* my account */
+.navbar{
+height: 50px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.logocontainer{
+    display: flex;
+}
+.logocontainer h1{
+   padding-left: 10px;
+   padding-right: 10px;
+
+}
+.logo2{
+    height: 35px;
+    margin-left: 25px;
+
+}
+.logow{
+    height: 35px;
+}
+.navbar input{
+    height: 25px;
+    border: 1px rgb(196,195,195) solid;
+    border-radius: 3px;
+    width: 250px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.fontawesomeicons{
+    font-size: 20px;
+}
+.theicons{
+    margin-left: 20px;
+    
+}
+
+/* account info section */
+.profileSection{
+    height: 130px;
+    width: 130px; 
+    border: 3px red solid;
+    border-radius: 50%;
+}
+.roundedProfilePic{
+    height: 126px;
+    width: 126px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/images/status.jpeg);
+    margin: 1.5px;
+}
